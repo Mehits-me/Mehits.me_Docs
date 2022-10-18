@@ -10,7 +10,7 @@ enableGitInfo = false
   author = "JokeDevil"
   showVisitedLinks = true
   themeVariant = "blue"
-  editURL = "https://github.com/Prefech/Prefech/tree/master/content/"
+  editURL = "https://github.com/Mehits-me/Mehits.me_Docs/tree/master/content/"
 
 # For search functionality
 [outputs]
@@ -22,11 +22,31 @@ title = "Mehits.me Documentation"
 weight = 1
 languageName = "English"
 
+[[Languages.en.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fab fa-github'></i> GitHub"
+    url = "https://github.com/mehits-me/"
+    weight = 10
+
+[[Languages.en.menu.shortcuts]]
+    name = "<i style='color: #7289da;' class='fab fa-discord'></i> Discord"
+    url = "https://discord.mehits.me/"
+    weight = 20
+
+[[Languages.en.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fas fa-globe'></i> Website"
+    url = "https://mehits.me/"
+    weight = 30
+
+[[Languages.en.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fab fa-twitter'></i> Twitter"
+    url = "https://twitter.com/mehits_me/"
+    weight = 40
+
 [Languages.nl]
 title = "Mehits.me Documentatie"
 weight = 2
 languageName = "Dutch (Nederlands)"
-
+    
 [[Languages.en.menu.shortcuts]]
     name = "<i style='color: #2196f3;' class='fab fa-github'></i> GitHub"
     url = "https://github.com/mehits-me/"
