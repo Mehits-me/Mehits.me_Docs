@@ -1,12 +1,12 @@
-baseurl = "https://docs.prefech.com/"
+baseurl = "https://docs.mehits.me/"
 languageCode = "en-us"
-title = "Prefech Documentation"
+title = "Mehits.me Documentation"
 theme = "hugo-theme-learn"
 metadataformat = "yaml"
 enableGitInfo = false
 
 [params]
-  description = "Prefech Documentation"
+  description = "Mehits.me Documentation"
   author = "JokeDevil"
   showVisitedLinks = true
   themeVariant = "blue"
@@ -18,36 +18,31 @@ home = [ "HTML", "RSS", "JSON"]
 
 [Languages]
 [Languages.en]
-title = "Prefech Documentation"
+title = "Mehits.me Documentation"
 weight = 1
 languageName = "English"
 
 [Languages.nl]
-title = "Prefech Documentatie"
+title = "Mehits.me Documentatie"
 weight = 2
 languageName = "Dutch (Nederlands)"
 
 [[Languages.en.menu.shortcuts]]
     name = "<i style='color: #2196f3;' class='fab fa-github'></i> GitHub"
-    url = "https://github.com/Prefech/"
+    url = "https://github.com/mehits-me/"
     weight = 10
 
 [[Languages.en.menu.shortcuts]]
     name = "<i style='color: #7289da;' class='fab fa-discord'></i> Discord"
-    url = "https://discord.gg/prefech"
-    weight = 30
-
-[[Languages.en.menu.shortcuts]]
-    name = "<i style='color: #f96854;' class='fab fa-patreon'></i> Patreon"
-    url = "https://www.patreon.com/prefech"
-    weight = 40
+    url = "https://discord.mehits.me/"
+    weight = 20
 
 [[Languages.en.menu.shortcuts]]
     name = "<i style='color: #2196f3;' class='fas fa-globe'></i> Website"
-    url = "https://prefech.com/"
-    weight = 50
+    url = "https://mehits.me/"
+    weight = 30
 
 [[Languages.en.menu.shortcuts]]
     name = "<i style='color: #2196f3;' class='fab fa-twitter'></i> Twitter"
-    url = "https://twitter.com/Prefech_/"
-    weight = 60
+    url = "https://twitter.com/mehits_me/"
+    weight = 40
