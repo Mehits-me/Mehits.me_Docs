@@ -1,0 +1,70 @@
+baseurl = "https://docs.mehits.me/"
+languageCode = "en-us"
+title = "Mehits.me Documentation"
+theme = "hugo-theme-learn"
+metadataformat = "yaml"
+enableGitInfo = false
+
+[params]
+  description = "Mehits.me Documentation"
+  author = "JokeDevil"
+  showVisitedLinks = true
+  themeVariant = "blue"
+  editURL = "https://github.com/Mehits-me/Mehits.me_Docs/tree/master/content/"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Mehits.me Documentation"
+landingPageURL = "/en"
+weight = 1
+languageName = "English"
+
+[Languages.nl]
+title = "Mehits.me Documentatie"
+landingPageURL = "/nl"
+weight = 2
+languageName = "Nederlands"
+
+[[Languages.en.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fab fa-github'></i> GitHub"
+    url = "https://github.com/Mehits-me/"
+    weight = 10
+
+[[Languages.en.menu.shortcuts]]
+    name = "<i style='color: #7289da;' class='fab fa-discord'></i> Discord"
+    url = "https://discord.mehits.me/"
+    weight = 20
+
+[[Languages.en.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fas fa-globe'></i> Website"
+    url = "https://mehits.me/"
+    weight = 30
+
+[[Languages.en.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fab fa-twitter'></i> Twitter"
+    url = "https://twitter.com/mehits_me/"
+    weight = 40
+
+[[Languages.nl.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fab fa-github'></i> GitHub"
+    url = "https://github.com/Mehits-me/"
+    weight = 10
+
+[[Languages.nl.menu.shortcuts]]
+    name = "<i style='color: #7289da;' class='fab fa-discord'></i> Discord"
+    url = "https://discord.mehits.me/"
+    weight = 20
+
+[[Languages.nl.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fas fa-globe'></i> Website"
+    url = "https://mehits.me/"
+    weight = 30
+
+[[Languages.nl.menu.shortcuts]]
+    name = "<i style='color: #2196f3;' class='fab fa-twitter'></i> Twitter"
+    url = "https://twitter.com/mehits_me/"
+    weight = 40
