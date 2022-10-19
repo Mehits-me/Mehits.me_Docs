@@ -1,5 +1,5 @@
 ---
-title: "Config"
+title: "Prefix Command"
 weight: 10001
 ---
 
